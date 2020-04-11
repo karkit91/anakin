@@ -1,0 +1,100 @@
+body {
+  width: 90%;
+  margin: auto;
+}
+
+section {
+  width: 50%;
+}
+
+header {
+  background: url('http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  background-size: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero {
+  color: #222;
+  background-color: red;
+  margin-left: 20px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: square;
+  font-family: 'Josefin Sans', sans;
+  color: #222;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  background: #222;
+  color: white;
+  font-size: 40px;
+  padding: 0px 0px 40px 40px;
+  position: relative;
+  width: 100%;
+}
+
+blockquote:before {
+  content: '\201C';
+  padding: 0px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.nagyobb {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.oblique {
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.nagyobb2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.text {
+  font-family: 'Josefin Sans', sans;
+  color: #222;
+  line-height: 1.6;
+  padding-left: 20px;
+}
